@@ -8,7 +8,6 @@ public class Topic implements Observable {
 	public List<Observer> observers;
 	public String topic;
 	
-	
 	public Topic() {
 		this.observers =  new ArrayList<>();
 	}

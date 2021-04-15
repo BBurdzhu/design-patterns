@@ -32,4 +32,5 @@ public class TopicSubscriber implements Observer {
 	public String getName() {
 		return name;
 	}
+
 }
