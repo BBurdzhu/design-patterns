@@ -6,6 +6,5 @@ public interface Observable {
 	void unsubscribe(Observer observer);
 	
 	void notifyObservers();
-	
 	String getUpdate();
 }

@@ -1,5 +1,6 @@
 package Observer;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Topic implements Observable {
@@ -9,7 +10,7 @@ public class Topic implements Observable {
 	
 	
 	public Topic() {
-		// TODO Auto-generated constructor stub
+		this.observers =  new ArrayList<>();
 	}
 
 	@Override
